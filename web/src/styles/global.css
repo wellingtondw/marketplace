@@ -1,0 +1,45 @@
+:root {
+  --primary: #06d6a0;
+  --secondary: #FA643D;
+
+  --white: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, input, textarea, select, button {
+  font: 400 1rem 'Open Sans', sans-serif;
+  letter-spacing: -0.03rem;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.background-primary {
+  background-color: var(--primary);
+}
+
+.box {
+  background: var(--white);
+  border-radius: 5px;
+  padding: 50px;
+  box-shadow: 0px 0px 11px 6px rgba(0, 0, 0, 0.08);
+}
+
+.button-secondary,
+.button-secondary:hover,
+.button-secondary:focus,
+.button-secondary:active {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
